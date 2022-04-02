@@ -1,0 +1,10 @@
+name: PlusApi
+version: 1.0
+main: io.github.itkova.Main
+api-version: 1.18
+author: team-plus
+description: Api for Plus Team
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.6.10
+
+
