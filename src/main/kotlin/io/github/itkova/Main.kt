@@ -12,4 +12,5 @@ class Main : JavaPlugin() {
     override fun onDisable() {
         server.consoleSender.sendMessage("${ChatColor.RED}플러그인이 비활성화되었습니다.")
     }
+
 }
