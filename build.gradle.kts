@@ -3,11 +3,11 @@ plugins {
     kotlin("plugin.serialization") version "1.6.20-RC"
 }
 
-group = "io.github.chlee7139"
+group = "com.unongmilk"
 version = "1.0"
 
 repositories {
-    mavenCentral()NPC
+    mavenCentral()
 }
 
 java{
@@ -27,6 +27,8 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.18-R0.1-SNAPSHOT")
     compileOnly("org.spigotmc:spigot:1.18.1-R0.1-SNAPSHOT")
     compileOnly("org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT")
+
+    compileOnly("com.comphenix.protocol","ProtocolLib","4.8.0")
 
     implementation(kotlin("stdlib"))
 
